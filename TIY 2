@@ -1,0 +1,16 @@
+int main()
+{
+    int salary;
+    int age;
+    
+    printf("Insert age: ");
+    scanf("%d",&age);
+    
+    printf("\nInsert salary: ");
+    scanf("%d",&salary);
+    
+    printf("\nYour age is: %d",age);
+    printf("\nYour salary is: %d",salary);
+
+    return 0;
+}
