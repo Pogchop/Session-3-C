@@ -1,0 +1,19 @@
+int main()
+{
+    int radius;
+    float pi = 3.14;
+    float area;
+    float perimeter;
+    
+    printf("radius: ");
+    scanf("%d",&radius);
+    
+    area = radius*radius*pi;
+    printf("\narea: %f",area);
+    
+    perimeter = (radius+radius)*pi;
+    printf("\nperimeter: %f",perimeter);
+   
+
+    return 0;
+}
